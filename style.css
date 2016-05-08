@@ -1,0 +1,97 @@
+html, body { border: 0; margin: 0; padding: 0; }
+body { background:#F2F2F2; font: 62.5% "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; min-width: 100%; color: #666; }
+
+#content p, label, legend { font: 1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
+
+#content h1 { margin: 10px 0 10px; font-size: 24px; color: #333333; font-style:oblique; }
+#content hr { color: inherit; height: 0; margin: 6px 0 6px 0; padding: 0; border: 1px solid #d9d9d9; border-style: none none solid; }
+
+#content { display: block; width: 650px; margin: 70px auto; padding: 35px; border: 1px solid #cbcbcb; background-color: #FFF; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+
+/* Form style */
+
+#content label { float: left; height: 26px; line-height: 26px; width: 155px; font-size: 1.5em; }
+#content input, textarea, select {display:block; margin-bottom:50px; width: 280px; padding: 5px; color: #777; background: #f5f5f5; border: 1px solid #ccc;font:1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; -moz-border-radius: 5px; -webkit-border-radius:5px; }   
+#content input:focus, textarea:focus, select:focus { border: 1px solid #999; background-color: #fff; color:#333; }
+#content input.submit { display:block; margin-top:20px; width: 85px; cursor: pointer; border: 1px solid #222; background:#333; color:#fff; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+#content input.submit:hover { background:#444; }
+#content fieldset { padding:20px; border:1px solid #eee; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+#content legend { padding:7px 10px; font-weight:bold; color:#000; border:1px solid #eee; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+#content textarea{width: 350px; height: 100px;}
+#content span.required{ font-size: 13px; color: #ff0000; } /* Select the colour of the * if the field is required. */
+#content a{color:#4E7C6A;}
+#content a:hover{text-decoration:none; color:#444;}
+#content h1{margin-bottom:20px;}
+
+#content #load{width:90px; height:60px; padding:2px; background:url('images/ajax_loader.gif') no-repeat;}
+
+/* Style for the error message */
+
+.error{color:#FF6262; font-size:1.1em;}
+
+span.logout{float:right;}
+
+#header ul li{background:#222;list-style-type:none; display:inline; font-size:15px; margin-bottom:10px; cursor:pointer; color:white;
+border-right:solid white 1px; padding:10px;}
+
+form{margin-top:50px;}
+
+
+#commentaires{padding-top:50px; border-top:solid 1px #777;}
+
+.com{border-top:solid 1px #F1F1F1; border-bottom:solid 1px #F1F1F1; padding:10px;}
+
+span.auteur{font-size:20px; color:#4E7C6A;}
+span.auteur a{font-size:15px; color:#4E7C6A;}
+
+.success{width:50%; height:20px; line-height:20px; color:#149541; font-size:1.3em;}
+.success_message{width:50%; height:20px; line-height:20px; color:#149541; font-size:1.3em;}
+
+.loader{
+  float:right;
+  background:url('images/loader.gif') no-repeat;
+  height:40px;
+  width:40px;
+}
+
+#error_message{
+  margin-top:50px;
+  width:400px;
+  padding:20px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  background:#FFD1D1;
+  color:#FF6262;
+  border: solid 1px #FF6262;
+}
+
+#success_message{
+  margin-top:50px;
+  width:400px;
+  padding:20px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  background:#D7FDDA;
+  color:#07BD12;
+  border: solid 1px #07BD12;
+}
+
+.field_success{
+  float:right;
+  background:url('images/success.png') no-repeat;
+  width:40px;
+  height:40px;
+  padding:2px;
+}
+
+.field_error{
+  float:right;
+  background:url('images/false.png') no-repeat;
+  width:40px;
+  height:40px;
+  padding:2px;
+}
+
+.logout{
+  float:right;
+}
